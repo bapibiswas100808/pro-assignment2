@@ -94,6 +94,7 @@ nav {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
 .banner-text {
   text-align: center;
@@ -115,6 +116,8 @@ nav {
   background: #ffffff4d;
   padding: 16px;
   border-radius: 8px;
+  display: flex;
+  gap: 24px;
 }
 .banner-inputs input,
 select {
@@ -125,7 +128,9 @@ select {
   font-family: "Mulish", sans-serif;
   max-width: 174px;
 }
+
 /* Responsive Css for Mobile */
+
 @media screen and (max-width: 600px) {
   /* basic responsive css */
   main {
@@ -134,6 +139,7 @@ select {
 
   nav {
     padding: 20px;
+    margin-bottom: 25px;
   }
   .nav-logo h2 {
     font-size: 20px;
@@ -152,6 +158,8 @@ select {
   /* Banner area responsive */
   .banner-area {
     background-position: center;
+    background-size: cover;
+    margin-bottom: 25px;
   }
 
   .banner-text h2 {
@@ -192,6 +200,11 @@ select {
   }
   .banner-area {
     margin: 0 50px;
+    margin-bottom: 50px;
+  }
+  .banner-inputs {
+    padding: 14px;
+    gap: 12px;
   }
   .banner-inputs input,
   select {
