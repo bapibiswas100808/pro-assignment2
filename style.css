@@ -128,6 +128,36 @@ select {
   font-family: "Mulish", sans-serif;
   max-width: 174px;
 }
+/* Banner css ends */
+
+/* Tour css starts */
+.tour-area {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 100px;
+}
+.tour-text {
+  width: 50%;
+}
+.tour-text h3 {
+  margin-bottom: 25px;
+}
+.tour-text p {
+  margin-bottom: 32px;
+}
+.tour-text ul {
+  margin-left: 30px;
+}
+.tour-text li {
+  margin-bottom: 25px;
+}
+.tour-image {
+  width: 50%;
+}
+.tour-image img {
+  width: 100%;
+}
+/* Tour css ends */
 
 /* Responsive Css for Mobile */
 
@@ -135,6 +165,9 @@ select {
   /* basic responsive css */
   main {
     margin: 20px;
+  }
+  .section-header {
+    font-size: 20px;
   }
 
   nav {
@@ -182,11 +215,22 @@ select {
   select {
     max-width: 252px;
   }
+
+  /* responsive tour area */
+  .tour-area {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .tour-text,
+  .tour-image {
+    width: 100%;
+  }
 }
 
 /* Responsive Design for tab */
 @media screen and (min-width: 600px) and (max-width: 991px) {
-  nav {
+  nav,
+  main {
     padding: 50px;
   }
   .nav-logo h2 {
@@ -210,5 +254,13 @@ select {
   select {
     max-width: 150px;
     padding: 15px 30px 15px 15px;
+  }
+  .tour-area {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .tour-text,
+  .tour-image {
+    width: 100%;
   }
 }
