@@ -531,6 +531,9 @@ select {
   .footer-area {
     padding: 20px;
   }
+  .footer-area hr {
+    margin: 25px 0;
+  }
 }
 
 /* Responsive Design for tab */
@@ -552,9 +555,12 @@ select {
     display: block;
   }
   .banner-area {
-    margin: 0 50px;
+    margin: 0 20px;
+    background-position: center;
+    background-size: cover;
     margin-bottom: 50px;
   }
+
   .banner-text h2 {
     font-size: 32px;
     margin-bottom: 10px;
