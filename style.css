@@ -106,6 +106,9 @@ nav {
 .nav-link i {
   display: none;
 }
+.special-header {
+  color: #ff5400;
+}
 /* Header area css ends */
 
 /* Banner area css starts */
@@ -391,7 +394,7 @@ select {
 
 /* Responsive Css for Mobile */
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 600px) {
   /* basic responsive css */
   main {
     margin: 20px;
@@ -537,7 +540,7 @@ select {
 }
 
 /* Responsive Design for tab */
-@media screen and (min-width: 600px) and (max-width: 991px) {
+@media screen and (min-width: 601px) and (max-width: 992px) {
   nav,
   main {
     padding: 20px;
