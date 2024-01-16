@@ -257,6 +257,42 @@ select {
 }
 /* Choose area css ENDS */
 
+/* Footer Area css starts */
+.footer-area {
+  padding: 100px 330px;
+  text-align: center;
+  background: #1313180d;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.footer-logo h2 {
+  margin-left: 16px;
+}
+.footer-logo span {
+  color: #ff5400;
+}
+.footer-icons {
+  margin-top: 32px;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  font-size: 26px;
+  color: #131318;
+}
+.footer-area hr {
+  width: 75%;
+  margin: 0 auto;
+  border: 1px solid #1313180d;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+/* Footer area css ends */
+
 /* Responsive Css for Mobile */
 
 @media screen and (max-width: 600px) {
@@ -351,6 +387,10 @@ select {
   .choose-card-bottom {
     width: 100%;
   }
+  /* footer area responsive css */
+  .footer-area {
+    padding: 20px;
+  }
 }
 
 /* Responsive Design for tab */
@@ -409,5 +449,8 @@ select {
   }
   .card {
     padding: 20px;
+  }
+  .footer-area {
+    padding: 50px;
   }
 }
